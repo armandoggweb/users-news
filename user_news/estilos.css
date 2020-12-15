@@ -1,0 +1,51 @@
+#cabecera{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+li{
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+#usuarios, #noticias{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px auto;
+}
+.usuario, .noticia{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 2px 2px 0 2px;
+    width: 300px;
+}
+.usuario > *, .noticia > *{
+    font-size: 0.75em;
+    margin: 0;
+    padding: 0px;
+}
+.botones{
+    display: flex;
+    height: 20px;
+}
+
+form, h2{
+    width: 200px;
+    margin: 2px auto;
+}
+.btn-nuevo{
+    margin: 2px 0;
+}
+input[name=logout]{
+    border: none;
+    background-color: white;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
